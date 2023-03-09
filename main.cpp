@@ -27,6 +27,7 @@ int main()
     // Initialize the 3D array with random numbers
     sperr::random<float***>(arr3D, Size, false);
     sperr::random<float***>(arr3D_new, Size, true);
+    std::cout << "Testing the github action workflow "<<std::endl;
 
     sperr::print_array<float***>(arr3D,Size);
 
